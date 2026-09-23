@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Srishti Jha is a product designer and engineer creating thoughtful, human-centered digital systems." />
+  <title>Srishti Jha — Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="opening" aria-hidden="true">
+    <div class="opening-grid"></div>
+    <div class="opening-sheet">
+      <p><span class="opening-type" data-copy="srishti jha's portfolio"></span></p>
+    </div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="cursor-grid" aria-hidden="true"></div>
+  <header class="nav" aria-label="Primary navigation">
+    <a class="wordmark magnetic" href="#top" aria-label="Srishti home">srish</a>
+    <nav>
+      <a class="magnetic" href="#work">Work</a>
+      <a class="magnetic" href="#about">About</a>
+      <a class="magnetic" href="mailto:srishjha@outlook.com">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow reveal">PRODUCT DESIGN · HARDWARE &amp; ELECTRONICS · INTERFACES</p>
+      <h1 class="hero-title"><span>What if technical systems</span><span>felt like they were built for you?</span></h1>
+      <div class="hero-bottom reveal">
+        <a class="round-link magnetic" href="#work" aria-label="View selected work">↓</a>
+      </div>
+      <div class="skills-hint" aria-hidden="true"><span>my skills</span><small>(click + move)</small></div>
+      <div class="skill-notes" aria-label="Draggable skill notes">
+        <button class="skill-note" type="button" data-skill="0" aria-label="Microcontrollers. Tap to shuffle or drag to move."><strong>micro-<br>controllers</strong></button>
+        <button class="skill-note" type="button" data-skill="1" aria-label="Circuit analysis. Tap to shuffle or drag to move."><strong>circuit<br>analysis</strong></button>
+        <button class="skill-note" type="button" data-skill="2" aria-label="Embedded C. Tap to shuffle or drag to move."><strong>embedded C</strong></button>
+        <button class="skill-note" type="button" data-skill="3" aria-label="Python. Tap to shuffle or drag to move."><strong>Python</strong></button>
+        <button class="skill-note" type="button" data-skill="4" aria-label="C. Tap to shuffle or drag to move."><strong>C</strong></button>
+        <button class="skill-note" type="button" data-skill="5" aria-label="C plus plus. Tap to shuffle or drag to move."><strong>C++</strong></button>
+        <button class="skill-note" type="button" data-skill="6" aria-label="HTML. Tap to shuffle or drag to move."><strong>HTML</strong></button>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <article class="project project-intera reveal" tabindex="0" role="button" data-project="perform" aria-label="Open PERFORM+ case study">
+        <div class="project-meta"><span>01</span><span>ENTERPRISE PLATFORM · PRODUCT DESIGN · DATA</span><span>2026</span></div>
+        <div class="project-title">
+          <h2>PERFORM+</h2>
+          <p>An enterprise performance platform that turns complex metrics into clear, actionable views for teams and leadership.</p>
+        </div>
+        <div class="preview project-image-stack" aria-hidden="true">
+          <img src="citiustech-dashboard.png" alt="">
+          <img src="citiustech-measure-year.png" alt="">
+          <img src="citiustech-cover.png" alt="">
+        </div>
+      </article>
+
+      <article class="project project-chempath reveal" tabindex="0" role="button" data-project="dreambreathe" aria-label="Open DreamBreathe case study">
+        <div class="project-meta"><span>02</span><span>MEDICAL DEVICE · PRODUCT DESIGN · IDEATHON</span><span>2026</span></div>
+        <div class="project-title">
+          <h2>DreamBreathe</h2>
+          <p>A concept microCPAP device with a companion app, from physical mockup to interface.</p>
+        </div>
+        <div class="preview project-image-stack dreambreathe-image-stack" aria-hidden="true">
+          <img src="dreambreathe-device-front.png" alt="">
+          <img src="dreambreathe-site.png" alt="">
+          <img src="dreambreathe-cover.png" alt="">
+        </div>
+      </article>
+
+      <article class="project project-citius reveal" tabindex="0" role="button" data-project="nasaorbit" aria-label="Open NASAOrbit case study">
+        <div class="project-meta"><span>03</span><span>HEALTH TECH · UI/UX · HACKATHON</span><span>2026</span></div>
+        <div class="project-title">
+          <h2>NASAOrbit</h2>
+          <p>A vital-sign tracking interface for astronauts, aligned with NASA's HERA research program.</p>
+        </div>
+        <div class="preview project-image-stack nasa-image-stack" aria-hidden="true">
+          <img src="nasaorbit-cover.png" alt="">
+          <img src="nasaorbit-workplan.jpg" alt="">
+          <img src="nasaorbit-dashboard.png" alt="">
+        </div>
+      </article>
+
+    </section>
+
+    <section class="timeline" id="timeline">
+      <div class="timeline-head reveal">
+        <div><h2>My timeline</h2></div>
+        <p>A mix of product thinking, technical work, research, and community building.</p>
+      </div>
+      <div class="timeline-filters reveal" role="group" aria-label="Filter timeline">
+        <button class="filter active" data-filter="all" type="button">All</button>
+        <button class="filter" data-filter="experience" type="button">Experience</button>
+        <button class="filter" data-filter="projects" type="button">Projects</button>
+        <button class="filter" data-filter="leadership" type="button">Involvement</button>
+        <button class="filter" data-filter="education" type="button">Education</button>
+      </div>
+      <div class="timeline-list">
+        <article class="timeline-item reveal" data-category="projects">
+          <span class="timeline-date">SEP 2026 — NOW</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>PRODUCT DESIGN · SEMESTER PROJECT</small>Product@TAMU</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Working on a semester-long product at Product@TAMU, exploring where interface decisions meet physical constraints through research, prototyping, and iteration.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="leadership">
+          <span class="timeline-date">AUG 2026 — NOW</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>LEADERSHIP</small>IBM Z, Microsoft Copilot &amp; Figma Campus Lead</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Representing three global technology and design communities on campus through student outreach, events, and peer learning.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="experience">
+          <span class="timeline-date">MAY — AUG 2026</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>EXPERIENCE · DATA ANALYTICS INTERN</small>CitiusTech</span><b>+</b></button>
+          <div class="timeline-detail"><div><ul><li>Designed UI/UX for the PERFORM+ healthcare performance analytics platform using Figma, Sketch, and Adobe XD.</li><li>Built platform functionality with Python, SQL, and Power BI to track performance metrics.</li><li>Presented the finished demo to platform leadership and communicated requirement changes throughout development.</li></ul></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="projects">
+          <span class="timeline-date">APR 2026</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>PROJECT · MEDICAL DEVICE</small>DreamBreathe</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Researched and designed a microCPAP device with a companion app, creating a physical concept in SolidWorks and an interface mockup focused on clarity and usability.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="projects">
+          <span class="timeline-date">FEB 2026</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>PROJECT · VITAL SIGN TRACKING</small>NASAorbit</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Built a web and app interface with a companion vital-sign tracker for astronauts, aligning the product concept with NASA's HERA research.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="leadership">
+          <span class="timeline-date">JAN 2026 — NOW</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>ROBOTICS · HATCHLING TRAINING</small>TURTLE</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Completed a 10-week program spanning SolidWorks, C++, Git/GitHub, soldering, microcontrollers, PWM, and communication protocols, then applied the skills in a team robotics competition.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="leadership">
+          <span class="timeline-date">OCT 2025 — NOW</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>ENGINEERING · ECO-MARATHON</small>WIRED</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Contributed to a real-time battery power monitoring and telemetry subsystem using an ESP32 and I2C sensing, and supported outreach at Texas A&amp;M's Night at Zach.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="education">
+          <span class="timeline-date">AUG 2025 — MAY 2029</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>EDUCATION</small>Texas A&amp;M University</span><b>+</b></button>
+          <div class="timeline-detail"><div><p>Bachelor of Science in Electronic Systems Engineering Technology. Focused on the intersection of product design, embedded systems, digital logic, and human-centered technology.</p></div></div>
+        </article>
+        <article class="timeline-item reveal" data-category="experience">
+          <span class="timeline-date">MAY — AUG 2025</span><span class="timeline-dot"></span>
+          <button class="timeline-toggle" type="button" aria-expanded="false"><span><small>EXPERIENCE · RESEARCH ASSISTANT</small>MD Anderson Cancer Center</span><b>+</b></button>
+          <div class="timeline-detail"><div><ul><li>Completed 400+ hours of in vitro cancer research on Olaparib treatment.</li><li>Performed cell culture, PCR, RT-qPCR, and fluorescence microscopy under BSL-2 conditions.</li><li>Analyzed results with Excel, GraphPad Prism, R, and ImageJ and presented findings in a research poster seminar.</li></ul></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-copy">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <p class="reveal">I’m Srishti, an Electronic Systems Engineering Technology student at Texas A&amp;M. I want to design interfaces for physical products, and build the hardware underneath them too.</p>
+        <p class="reveal">Engineering’s given me an eye for constraints: battery life, sensor limits, what a microcontroller can actually handle in real time. Product design is where those constraints are useful; they tell me exactly what a person needs to use and understand, and what not.</p>
+        <div class="links reveal"><a href="mailto:srishjha@outlook.com">Email</a><a href="https://www.linkedin.com/in/srishtijha2006/" target="_blank" rel="noreferrer">LinkedIn</a><span>Résumé</span></div>
+      </div>
+      <div class="photo-stack reveal" aria-label="Personal photo stack. Select the front photo to see the next one.">
+        <button class="photo-card is-top" type="button" aria-label="Solo portrait. Show next photo"><img src="about-solo.jpg" alt="Srishti smiling in a solo portrait" /></button>
+        <button class="photo-card" type="button" aria-label="Flowers photo. Show next photo"><img src="about-flowers.jpg" alt="Srishti posing with flowers" /></button>
+        <button class="photo-card" type="button" aria-label="Purple background photo. Show next photo"><img src="about-purple.jpg" alt="Srishti with a friend against a purple-lit background" /></button>
+        <button class="photo-card" type="button" aria-label="Chef photo. Show next photo"><img src="about-chef.jpg" alt="Srishti and a friend posing beside a chef figure" /></button>
+        <button class="photo-card" type="button" aria-label="Puffy jacket photo. Show next photo"><img src="about-jacket.jpg" alt="Srishti with a friend wearing puffy jackets" /></button>
+        <button class="photo-card" type="button" aria-label="Cake photo. Show next photo"><img src="about-cake.jpg" alt="A family celebration with a birthday cake" /></button>
+        <span class="photo-note">click through :)</span>
+      </div>
+    </section>
+
+    <section class="contact">
+      <p class="eyebrow">GOT A COOL IDEA?</p>
+      <a class="contact-link magnetic" href="mailto:srishjha@outlook.com">Let’s make something <span>creative</span></a>
+    </section>
+  </main>
+
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title">
+    <button class="case-close" type="button" aria-label="Close case study">take me back</button>
+    <div class="case-shell">
+      <header class="case-hero">
+        <p class="eyebrow" id="case-kicker"></p>
+        <h2 id="case-title"></h2>
+        <p id="case-summary"></p>
+        <div class="case-links" id="case-links" aria-label="Project links"></div>
+      </header>
+      <div class="case-visual" id="case-visual" aria-label="Project interface preview"></div>
+      <div class="case-story">
+        <section><p class="eyebrow">Challenge</p><p id="case-challenge"></p></section>
+        <section><p class="eyebrow">Approach</p><p id="case-approach"></p></section>
+        <section><p class="eyebrow">Result</p><p id="case-result"></p></section>
+      </div>
+    </div>
+  </dialog>
+
+  <footer><span>© 2026 Srishti Jha</span><a href="#top">take me back!</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
